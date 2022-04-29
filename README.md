@@ -28,6 +28,7 @@
  - **typescript** for typescript support
  
 **Innovative feature**
+
 used sharp to convert uploaded product images to both avif and webp.
 avif and webp are efficient codec and it can be **500%** smaller compared to jpg or png which will result in a **faster** page load. currently some browsers don't support avif and webp but it can be fixed with html picture element.
 
