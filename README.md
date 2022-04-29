@@ -32,4 +32,13 @@
 used sharp to convert uploaded product images to both avif and webp.
 avif and webp are efficient codec and it can be **500%** smaller compared to jpg or png which will result in a **faster** page load. currently some browsers don't support avif and webp but it can be fixed with html picture element.
 
+Ex:
+
+    <picture>  
+    <source  srcset="image.avif">  
+    <source  srcset="image.webp">  
+    <img src="image.jpg"  alt="Flowers">  
+    </picture>
+
+
 if browser doesn't support avif it will try to use webp and if even webp is not supported then it will fallback to png which is supported by all the browsers even internet explorer.
