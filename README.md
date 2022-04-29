@@ -35,9 +35,9 @@ avif and webp are efficient codec and it can be **500%** smaller compared to jpg
 Ex:
 
     <picture>  
-    <source  srcset="image.avif">  
-    <source  srcset="image.webp">  
-    <img src="image.jpg"  alt="Flowers">  
+     <source  srcset="image.avif">  
+     <source  srcset="image.webp">  
+     <img src="image.jpg"  alt="Flowers">  
     </picture>
 
 
